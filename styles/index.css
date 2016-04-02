@@ -1,7 +1,12 @@
     .clr{
+        display:block;
         clear:both;
-        width: 0px;
-        height: 0px;
+        content:"";
+        visibility:hidden;
+        height:0px;
+    }
+    .clr{
+        zoom:1;
     }
     #container{
         margin: 0 auto;
@@ -10,6 +15,12 @@
     #header{
         height: 128px;
         background: gray url(../images/top_bg.jpg);
+        position: relative;
+    }
+    #hot{
+        position: absolute;
+        left:350px;
+        bottom: 30px;
     }
     #nav li{
         width: 90px;
@@ -31,13 +42,11 @@
     #banner{
         margin:6px 0;
     }
-    #main{
-        height: 478px;
-    }
     #lside{
         height: 477px;
         width:694px;
         border: 1px solid #EEE; 
+        border-radius: 8px;
         float:left;
         border-top: none;
     }
