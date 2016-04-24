@@ -13,7 +13,7 @@
         width:1002px;
     }
     #header{
-        height: 128px;
+        height: 43px;
         background: gray url(../images/top_bg.jpg);
         position: relative;
     }
@@ -28,7 +28,7 @@
         float: left;
     }
     #nav a{
-        color:#363636;
+        color:#000066;
         font: 16px/37px '微软雅黑','黑体',sans-serif;
         display: block;
         width: 90px;
@@ -59,7 +59,7 @@
         float: left;
     }
     .subtitle h1{
-        color: #151515;
+        color: #000066;
         float:left;
         font: 16px/37px 'Microsoft Yahei',SimHei,sans-serif;
         margin-left:10px;
